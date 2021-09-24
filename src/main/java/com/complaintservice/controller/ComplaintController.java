@@ -29,7 +29,8 @@ import com.complaintservice.utilities.GlobalLogger;
  *
  */
 @RestController
-@RequestMapping(path= "complaint")
+@RequestMapping(path= "/complaint")
+
 public class ComplaintController {
 	// Creating reference (it creates loosely coupled application)
 	@Autowired
